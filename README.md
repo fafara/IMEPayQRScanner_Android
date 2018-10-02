@@ -1,4 +1,4 @@
-# IMEPayQRScanner_Android
+# IMEPayQRScanner For Android
 IME Pay QR Code Scanner SDK for Android
 
 
