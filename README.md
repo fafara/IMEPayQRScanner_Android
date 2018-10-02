@@ -57,5 +57,5 @@ IME Pay QR Code Scanner SDK for Android
     }
 ```
 Note:  
-•	For Invalid QR, SDK returns -1 as Merchant Code. App should ignore this value. 
-•	Make sure NDK is enabled and properly integrated in the App 
+-	For Invalid QR, SDK returns -1 as Merchant Code. App should ignore this value. 
+-	Make sure NDK is enabled and properly integrated in the App 
