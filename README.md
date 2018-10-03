@@ -68,3 +68,8 @@ compile 'ib.swifttechnology.merchantscanner:IMEMerchantScanner:1.0.0'
 Note:  
 -	For Invalid QR, SDK returns -1 as Merchant Code. App should ignore this value. 
 -	Make sure NDK is enabled and properly integrated in the App 
+
+
+### Release
+  V 1.0.0
+  - Initial Release
