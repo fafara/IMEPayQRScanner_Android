@@ -20,11 +20,18 @@ IME Pay QR Code Scanner SDK for Android
 
 # How to implement IME PAY QR SDK in Android 
 
- ### 1. Add following permission in manifest
+### 1.Add the following in your app's build.gradle file:
+```sh
+compile 'ib.swifttechnology.merchantscanner:IMEMerchantScanner:1.0.0'
+```
+
+ ### 2. Add following permission in manifest
+ ```sh
   	<uses-permission android:name="android.permission.CAMERA" />   
+   ```
 
 
-### 2. Register this Activity in your App Manifest 
+### 3. Register this Activity in your App Manifest 
 ```sh
  <activity android:name="lib.swifttechnology.merchantscanner.BarcodeCaptureActivity"     
    android:configChanges="orientation" android:screenOrientation="portrait"     
@@ -33,7 +40,7 @@ IME Pay QR Code Scanner SDK for Android
  ```
 
  
- ### 3. Initialize the IMESCannerHandler class and call openScannerActivity method with request code
+ ### 4. Initialize the IMESCannerHandler class and call openScannerActivity method with request code
  ```sh
  IMEScannerHandler scannerHandler; 
  scannerHandler = new IMEScannerHandler(MainActivity.this);
@@ -41,7 +48,7 @@ IME Pay QR Code Scanner SDK for Android
  ```
 
  
- ### 4. Override the onActivityResult and check for your request code. On ResultOk, you can get the MerchantCode from intent with key name “BarCode”
+ ### 5. Override the onActivityResult and check for your request code. On ResultOk, you can get the MerchantCode from intent with key name “BarCode”
  ```sh
 @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
