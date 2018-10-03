@@ -44,8 +44,8 @@ compile 'ib.swifttechnology.merchantscanner:IMEMerchantScanner:1.0.0'
  
  ### 4. Initialize the IMESCannerHandler class and call openScannerActivity method with request code
  ```sh
- IMEScannerHandler scannerHandler; 
- scannerHandler = new IMEScannerHandler(MainActivity.this);
+ IMEPayScannerHandler scannerHandler; 
+ scannerHandler = new IMEPayScannerHandler(MainActivity.this);
  scannerHandler.openScannerActivity(100);
  ```
 
@@ -56,7 +56,7 @@ compile 'ib.swifttechnology.merchantscanner:IMEMerchantScanner:1.0.0'
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == 100 && resultCode == RESULT_OK) {
             if (data != null) {
-                String merchantCode = data.getStringExtra("BarCode");
+                String merchantCode = data.getStringExtra(IMEPayScannerConstant.BARCODE);
 } else {
                 //  FAILED
             }
