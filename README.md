@@ -14,7 +14,7 @@ IME Pay QR Code Scanner SDK for Android
   - Easy Integration with  few lines of code
 
 #Screenshot
-
+https://raw.githubusercontent.com/imepay/IMEPayQRScanner_Android/master/doc-qr-code.jpg
  
   
 
