@@ -9,7 +9,7 @@ IME Pay QR Code Scanner SDK for Android
 
 # Main Objective
 
-  - Scan QR Code of IME Pay Merchants
+  - Scan QR Code of IME Pay's Merchants
   - Return the Merchant Code to the App implementing the SDK after Scanning
   - Easy Integration with  few lines of code
 
