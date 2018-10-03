@@ -13,6 +13,7 @@ IME Pay QR Code Scanner SDK for Android
   - Return the Merchant Code to the App implementing the SDK after Scanning
   - Easy Integration with  few lines of code
 
+#Screenshot
 
  
   
